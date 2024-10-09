@@ -31,11 +31,9 @@ PRODUCT_PACKAGES += \
 
 # Dependencies
 TARGET_RECOVERY_DEVICE_MODULES += \
-    libion \
     libdmabufheap
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libdmabufheap.so
 
 # Enable Fuse Passthrough
